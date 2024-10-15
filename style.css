@@ -1,6 +1,10 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url("img/pexels-jplenio-1118873.jpg");
+    background-position: center;
+    background-size: cover; /* Pokriva celu pozadinu */
+    background-repeat: no-repeat;
+    height: 100vh; /* Postavi visinu tela na 100% visine pregleda */
     margin: 0;
     padding: 0;
 }

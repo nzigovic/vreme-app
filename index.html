@@ -5,18 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplikacija za temperaturu</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <h1>Proveri Temperaturu</h1>
         <h2 class="grad">Darmstadt</h2>
         <h2 class="temp">22°C</h2>
-        
+
+        <i class="fas fa-cloud"></i>
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-rainbow"></i>
 
             <input type="text"  placeholder="Unesi naziv grada">
             <button id="getTemperature">Prikaži temperaturu</button>
+            <button id="clearHistory">Obriši istoriju</button>
+    <ul id="history"></ul>
+
+            <ul id="history"></ul>
+
     
             
         <div class="result" id="result"></div>
